@@ -23,7 +23,7 @@ jobs:
           - name: 'wails-nuxt'
             platform:  'linux/amd64'
             os: 'ubuntu-latest'
-          - name: 'wails-nuxt'
+          - name: 'wails-nuxt.exe'
             platform:  'windows/amd64'
             os: 'windows-latest'
           - name: 'wails-nuxt'
