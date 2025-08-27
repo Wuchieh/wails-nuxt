@@ -1,0 +1,45 @@
+:root {
+    font-family:
+        Noto Sans TC,
+        serif;
+}
+
+// hidden scrollbar
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+    z-index: 6000;
+}
+
+::view-transition-new(root) {
+    z-index: 2147483646;
+}
+
+/* 根据自己选择器修改 */
+.dark::view-transition-old(root) {
+    z-index: 2147483646;
+}
+.dark::view-transition-new(root) {
+    z-index: 6000;
+}
+
+.wails-no-drag {
+    --wails-draggable: no-drag
+}
+
+.wails-drag {
+    --wails-draggable: drag
+}

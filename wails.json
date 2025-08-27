@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "wails-nuxt",
+  "outputfilename": "wails-nuxt",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm generate",
+  "frontend:dev:watcher": "pnpm dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Wuchieh",
+    "email": "q20001116@gmail.com"
+  }
+}

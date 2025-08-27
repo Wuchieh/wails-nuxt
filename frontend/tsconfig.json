@@ -1,0 +1,11 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false
+  },
+  "exclude": [
+    "wailsjs" // 忽略 wails 生成的代碼
+  ]
+}
